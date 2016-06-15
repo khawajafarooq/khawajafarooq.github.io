@@ -355,10 +355,10 @@ body {
   font-size: 12pt;
   line-height: 18pt;
 }
-.website span a {
+/*.website span a {
   color: #5da4d9;
   word-wrap: break-word;
-}
+}*/
 /* style for
 
 ***** blog  *****
@@ -551,6 +551,7 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
   color: #fff;
   cursor: default;
 }
+
 #msgSubmit {
   font-size: 20px;
   margin-bottom: 20px;
@@ -595,24 +596,26 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 }
 .back-btn .fa {
   display: inline;
+  font-size: 22px;
+  text-transform: lowercase;
 }
+
 #back-button {
   display: none;
   text-align: center;
-  text-transform: uppercase;
   margin: 0 auto;
   padding: 15px;
 }
 #back-button i {
-  margin-right: 10px;
-  font-size: 30px;
+  margin-right: 5px;
+  font-size: 20px;
   opacity: 0.9;
   position: relative;
   top: 5px;
   margin-right: 15px;
 }
 #back-button img {
-  padding: 10px;
+  padding: 5px;
 }
 #loader {
   min-height: 930px;
@@ -673,50 +676,3 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 .project-information li a {
   color: #5da4d9;
 }
-.but.opc-1.ico, .but.opc-2.ico, .but.opc-3.ico {
-	  vertical-align: middle;
-	  -webkit-transform: translateZ(0);
-	  transform: translateZ(0);
-	  -webkit-backface-visibility: hidden;
-	  backface-visibility: hidden;
-	  position: relative;
-	}
-
-
-	.but.opc-1.ico:before, .but.opc-1.ico:after, .but.opc-2.ico:before, .but.opc-2.ico:after,
-	 .but.opc-3.ico:before, .but.opc-3.ico:after {
-	  position: absolute;
-	  left: 15px;
-	  padding: 0 1px;
-	  font-family: 'fontello';
-	  font-size:15px;
-	}
-
-	.but.opc-1.ico:before, .but.opc-1.ico:after {
-	  content: '\e864';
-	}
-
-	.but.opc-2.ico:before,  .but.opc-2.ico:after {
-	  content: '\e800';
-	}
-	
-	
-	.but.opc-3.ico:before,  .but.opc-3.ico:after {
-	  content: '\e866';
-	}
-
-
-	.but.opc-1.ico:after , .but.opc-2.ico:after, .but.opc-3.ico:after {
-	  opacity: 0;
-	  -webkit-animation-duration: 0.5s;
-	  animation-duration: 0.5s;
-	  -webkit-animation-fill-mode: forwards;
-	  animation-fill-mode: forwards;
-	}
-	.but.opc-1.ico:hover:after,  .but.opc-1.ico:focus:after, .but.opc-1.ico:active:after, .but.opc-2.ico:hover:after,  .but.opc-2.ico:focus:after, .but.opc-2.ico:active:after,
-	.but.opc-3.ico:hover:after,  .but.opc-3.ico:focus:after, .but.opc-3.ico:active:after {
-	  -webkit-animation-name: hvr-icon-float-away;
-	  animation-name: hvr-icon-float-away;
-	  -webkit-animation-timing-function: ease-out;
-	  animation-timing-function: ease-out;
-	}
