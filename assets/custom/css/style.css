@@ -3167,3 +3167,7 @@ footer {
     width: 100% !important; } }
 
 /*# sourceMappingURL=style.css.map */
+
+.follow img {
+  width: 30px;
+}
