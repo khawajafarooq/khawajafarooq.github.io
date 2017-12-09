@@ -2197,7 +2197,10 @@ footer {
     #timeline-vertical .timeline-vert li:after {
       clear: both; }
     #timeline-vertical .timeline-vert li .timeline-photo {
-      min-height: 180px; }
+      min-height: 180px;
+      display: inline block;
+      text-align: center;
+    }
     #timeline-vertical .timeline-vert li .timeline-time {
       padding: 6px 30px;
       position: absolute;
