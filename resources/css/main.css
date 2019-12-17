@@ -1,0 +1,108 @@
+html {
+	font-family: 'Roboto', sans-serif;
+}
+
+:root {
+	/* Defining variables */
+	--background-color: #fafafa;
+	--foreground-color: #121212;
+	--secondary-foreground-color: #868686;
+	--accent-color: #222;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+	:root {
+		/* Redefining color variables for dark theme */
+		--background-color: #121212;
+		--foreground-color: #fafafa;
+		--secondary-foreground-color: #787878;
+		--accent-color: #ddd;
+	}
+}
+
+body {
+	color: var(--foreground-color);
+	background-color: var(--background-color);
+}
+
+a {
+	text-decoration: none;
+}
+
+.icons-social a {
+	color: var(--foreground-color);
+}
+
+.icons-social a svg path {
+	color: var(--foreground-color);
+}
+
+.icons-social i {
+	font-size: 3em;
+}
+
+div.main {
+	display: flex;
+	flex-direction: column;
+	min-height: 90vh;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 0 30px;
+}
+
+div>.intro {
+	font-family: 'Reem Kufi', sans-serif;
+	font-size: 3.75em;
+	font-weight: 600;
+}
+
+div>.tagline {
+	font-size: 1.5rem;
+	margin: 1.5rem 0;
+	font-weight: 100;
+}
+
+.footer {
+	font-size: 1rem;
+	font-weight: 100;
+	color: var(--secondary-foreground-color);
+	text-align: center;
+}
+
+.icons-social i {
+	padding: 10px;
+}
+
+.button {
+	border: none;
+	padding: 12px 16px;
+	text-align: center;
+	text-decoration: none;
+	box-sizing: border-box;
+	display: block;
+	font-size: 16px;
+	-webkit-transition-duration: 0.4s;
+	/* Safari */
+	transition-duration: 0.4s;
+	cursor: pointer;
+	font-weight: 300;
+	border: 2px solid;
+	margin: 30px 0;
+}
+
+.primary {
+	background-color: var(--background-color);
+	color: var(--accent-color);
+	border-color: var(--accent-color);
+}
+
+.primary:focus {
+	outline: 0;
+}
+
+.primary:hover {
+	background-color: var(--accent-color);
+	color: var(--background-color);
+	border-color: var(--accent-color);
+}
