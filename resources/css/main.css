@@ -13,6 +13,8 @@ html {
 	--heading-color: #e53935;
 	--sub-heading-color: #212121;
 	--sub-text-color: #212121;
+
+	--appstore-button-image: url("../images/appstore-white.svg");
 }
 
 @media screen and (prefers-color-scheme: dark) {
@@ -26,6 +28,8 @@ html {
 		--heading-color: #ff5252;
 		--sub-heading-color: #e0e0e0;
 		--sub-text-color: #bdbdbd;
+
+		--appstore-button-image: url("../images/appstore-black.svg");
 	}
 }
 
