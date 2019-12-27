@@ -34,6 +34,10 @@
 	.smallSpace {
 		padding-top: 0px;
 	}
+
+	.footer {
+		font-size: 1.2rem;
+	}
 }
 
 @media only screen and (min-width: 960px) {
@@ -70,6 +74,10 @@
 
 	.smallSpace {
 		padding-top: 30px;
+	}
+
+	.footer {
+		font-size: 0.7rem;
 	}
 }
 
@@ -108,5 +116,9 @@
 
 	.smallSpace {
 		padding-top: 30px;
+	}
+
+	.footer {
+		font-size: 0.9rem;
 	}
 }
