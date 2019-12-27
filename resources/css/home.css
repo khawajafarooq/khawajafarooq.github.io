@@ -28,13 +28,15 @@ div.home {
 div>.intro {
 	font-family: 'Reem Kufi', sans-serif;
 	font-size: 3.75em;
-	font-weight: 600;
+    font-weight: 600;
+    width: 100%;
 }
 
 div>.tagline {
 	font-size: 1.5rem;
 	margin: 1.5rem 0;
-	font-weight: 100;
+    font-weight: 100;
+    width: 100%;
 }
 
 .icons-social i {
