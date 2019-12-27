@@ -12,34 +12,116 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" type="text/css"/>
         <link rel="stylesheet" href="resources/css/reset.css" type="text/css"/>
         <link rel="stylesheet" href="resources/css/main.css" type="text/css"/>
+        <link rel="stylesheet" href="resources/css/home.css" type="text/css"/>
+        <link rel="stylesheet" href="resources/css/portfolio.css" type="text/css"/>
         <link rel="stylesheet" href="resources/css/responsive.css" type="text/css"/>
     </head>
     <body>
-        <div class="main">
-            <div class="intro">Hi, I’m Farooq 👋</div>
-            <div class="tagline">I’m an iOS Developer living in Aarhus 🇩🇰</div>
-            <div class="icons-social">
-                <a target="_blank" href="https://twitter.com/khfarooq">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a target="_blank" href="https://www.linkedin.com/in/khfarooq">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a target="_blank" href="https://github.com/khawajafarooq">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a target="_blank" href="mailto:hello@farooq.io">
-                    <i class="fa fa-envelope"></i>
+        <div class="container">
+            <div id="home" class="home">
+                <div class="intro">Hi, I’m Farooq</div>
+                <div class="tagline">I’m an iOS Developer living in Aarhus 🇩🇰</div>
+                <div class="icons-social">
+                    <a target="_blank" href="https://twitter.com/khfarooq">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/in/khfarooq">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a target="_blank" href="https://github.com/khawajafarooq">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a target="_blank" href="mailto:hello@farooq.io">
+                        <i class="fa fa-envelope"></i>
+                    </a>
+                </div>
+                <a target="_blank" href="resources/resume/resume.pdf">
+                    <button class="button primary">
+                        <span class="icon">
+                            <i class="fa fa-download"></i>
+                        </span>
+                        <span>Download resume</span>
+                    </button>
                 </a>
             </div>
-            <a target="_blank" href="resources/resume/resume.pdf">
-                <button class="button primary">
-                    <span class="icon">
-                        <i class="fa fa-download"></i>
-                    </span>
-                    <span>Download resume</span>
-                </button>
-            </a>
+            <div class="arrow bounce">
+                <a class="fa fa-arrow-down fa-2x" href="#portfolio"></a>
+            </div>
+            <div id="portfolio" class="portfolio">
+                <div class="heading">PORTFOLIO</div>
+                <div>
+                    <div class="row">
+                        <div class="column">
+                            <div class="portfolio-image">
+                                <img src="resources/portfolio/mp.png"/>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="portfolio-details">
+                                <h2>MobilePay</h2>
+                                <p>MobilePay is a mobile payment app in Denmark and Finland. It's used everywhere from shopping to paying bills. It also offers P2P payments between MobilePay users which is as easy as sending a text message.</p>
+                                <h3>My Role</h3>
+                                <p>My contributions are on User Onboarding, Compliance flows and Gifts.</p>
+                                <h3>Technologies</h3>
+                                <p>Swift, Lottie, Push Notifications, Bluetooth, Programmatic User Interface</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <div class="portfolio-image">
+                                <img src="resources/portfolio/meem.png"/>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="portfolio-details">
+                                <h2>Meem</h2>
+                                <p>Meem is a digital banking app. It provides next generation branchless banking services from Account Onboarding, Credit Cards to Personal Finance and many more.</p>
+                                <h3>My Role</h3>
+                                <p>I built Credit Card and Personal Finance from scratch to finish (UI and backend integration) along with other parts of the app.</p>
+                                <h3>Technologies</h3>
+                                <p>iOS Native (Objective-C), Cross Platform (KONY javascript), REST API integration, Push Notifications, Gemalto OCR framekwork</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <div class="portfolio-image">
+                                <img src="resources/portfolio/ts.png"/>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="portfolio-details">
+                                <h2>TripShare</h2>
+                                <p>TripShare lets user create custom itinerary by booking flights, hotels, exploring attractions and food. All by adding locations with personal comments on a map. It's a universal app with quite a rich user experience.</p>
+                                <h3>My Role</h3>
+                                <p>I built major part of the UI as part of a team.</p>
+                                <h3>Technologies</h3>
+                                <p>Objective-C, Xib based UI</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="smallSpace"></div>
+                    <div class="row">
+                        <div class="column">
+                            <div class="portfolio-image">
+                                <img src="resources/portfolio/tm.png"/>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="portfolio-details">
+                                <h2>TenMarks Math</h2>
+                                <p>TenMarks Math (an Amazon Company) is an interactive math program for students in grade 1 through high school. Studens can take assignments selected by the teacher. It also offers hints and video lessons guide during the course. Games and certificates provide a motivating and funlearning environment.</p>
+                                <h3>My Role</h3>
+                                <p>I built 90% of version 1.0.</p>
+                                <h3>Technologies</h3>
+                                <p>Objective-C, Core Data, AFNetworking, Xib based UI, REST API integration</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="space"></div>
         </div>
         <div class="footer">Copyright © Farooq 2019</div>
     </body>

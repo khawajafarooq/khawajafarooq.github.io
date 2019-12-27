@@ -1,13 +1,18 @@
 html {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto bold', sans-serif;
+	scroll-behavior: smooth;
 }
 
 :root {
 	/* Defining variables */
 	--background-color: #fafafa;
 	--foreground-color: #121212;
-	--secondary-foreground-color: #868686;
-	--accent-color: #222;
+
+	--button-color: #121212;
+	
+	--heading-color: #e53935;
+	--sub-heading-color: #212121;
+	--sub-text-color: #212121;
 }
 
 @media screen and (prefers-color-scheme: dark) {
@@ -15,8 +20,12 @@ html {
 		/* Redefining color variables for dark theme */
 		--background-color: #121212;
 		--foreground-color: #fafafa;
-		--secondary-foreground-color: #787878;
-		--accent-color: #ddd;
+
+		--button-color: #e0e0e0;
+		
+		--heading-color: #ff5252;
+		--sub-heading-color: #e0e0e0;
+		--sub-text-color: #bdbdbd;
 	}
 }
 
@@ -25,84 +34,26 @@ body {
 	background-color: var(--background-color);
 }
 
-a {
-	text-decoration: none;
-}
-
-.icons-social a {
-	color: var(--foreground-color);
-}
-
-.icons-social a svg path {
-	color: var(--foreground-color);
-}
-
-.icons-social i {
-	font-size: 3em;
-}
-
-div.main {
+div.container {
 	display: flex;
 	flex-direction: column;
-	min-height: 90vh;
-	justify-content: center;
 	align-items: center;
 	text-align: center;
-	padding: 0 30px;
-}
-
-div>.intro {
-	font-family: 'Reem Kufi', sans-serif;
-	font-size: 3.75em;
-	font-weight: 600;
-}
-
-div>.tagline {
-	font-size: 1.5rem;
-	margin: 1.5rem 0;
-	font-weight: 100;
+	justify-content: center;
 }
 
 .footer {
-	font-size: 1rem;
+	font-size: 0.9rem;
 	font-weight: 100;
-	color: var(--secondary-foreground-color);
+	color: var(--sub-text-color);
 	text-align: center;
+	margin-bottom: 20px;
 }
 
-.icons-social i {
-	padding: 10px;
+.smallSpace {
+	padding-top: 30px;
 }
 
-.button {
-	border: none;
-	padding: 12px 16px;
-	text-align: center;
-	text-decoration: none;
-	box-sizing: border-box;
-	display: block;
-	font-size: 16px;
-	-webkit-transition-duration: 0.4s;
-	/* Safari */
-	transition-duration: 0.4s;
-	cursor: pointer;
-	font-weight: 300;
-	border: 2px solid;
-	margin: 30px 0;
-}
-
-.primary {
-	background-color: var(--background-color);
-	color: var(--accent-color);
-	border-color: var(--accent-color);
-}
-
-.primary:focus {
-	outline: 0;
-}
-
-.primary:hover {
-	background-color: var(--accent-color);
-	color: var(--background-color);
-	border-color: var(--accent-color);
+.space {
+	padding-top: 100px;
 }

@@ -6,6 +6,34 @@
 	.button { 
 		width: 300px;
 	}
+
+	div.home {
+		min-height: 92vh;
+	}
+	
+	.portfolio h2 {
+		font-size: 2.8em;
+	}
+	
+	.portfolio h3 {
+		font-size: 2.2em;
+		margin-top: 20px;
+	}
+	
+	.portfolio p {
+		font-size: 1.4em;
+		padding: 5px 0;
+	}
+
+	div>.heading {
+		font-size: 3.2em;
+		margin-top: 60px;
+		margin-bottom: 20px;
+	}
+
+	.smallSpace {
+		padding-top: 0px;
+	}
 }
 
 @media only screen and (min-width: 960px) {
@@ -16,10 +44,69 @@
 	.button { 
 		width: 300px;
 	}
+
+	div.home {
+		min-height: 85vh;
+	}
+
+	.portfolio h2 {
+		font-size: 2em;
+	}
+	
+	.portfolio h3 {
+		font-size: 1.5em;
+		margin-top: 30px;
+	}
+	
+	.portfolio p {
+		font-size: 1em;
+		padding: 5px 0;
+	}
+
+	div>.heading {
+		font-size: 3em;
+		margin: 100px 0;
+	}
+
+	.smallSpace {
+		padding-top: 30px;
+	}
 }
 
 @media only screen and (min-width: 1100px) {
 	html {
 		font-size: 1.2rem;
+	}
+
+	div.home {
+		min-height: 85vh;
+	}
+
+	div.portfolio {
+		margin: 20px 300px;
+		text-align: left;
+	}
+
+	.portfolio h2 {
+		font-size: 2em;
+	}
+	
+	.portfolio h3 {
+		font-size: 1.4em;
+		margin-top: 50px;
+	}
+	
+	.portfolio p {
+		font-size: 0.85em;
+		padding: 5px 0;
+	}
+
+	div>.heading {
+		font-size: 3em;
+		margin: 100px 0;
+	}
+
+	.smallSpace {
+		padding-top: 30px;
 	}
 }
