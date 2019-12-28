@@ -31,7 +31,7 @@
 		margin-bottom: 20px;
 	}
 
-	.smallSpace {
+	.mediumSpace {
 		padding-top: 0px;
 	}
 
@@ -59,7 +59,7 @@
 	
 	.portfolio h3 {
 		font-size: 1.5em;
-		margin-top: 30px;
+		margin-top: 20px;
 	}
 	
 	.portfolio p {
@@ -72,7 +72,7 @@
 		margin: 100px 0;
 	}
 
-	.smallSpace {
+	.mediumSpace {
 		padding-top: 30px;
 	}
 
@@ -101,7 +101,7 @@
 	
 	.portfolio h3 {
 		font-size: 1.4em;
-		margin-top: 30px;
+		margin-top: 20px;
 	}
 	
 	.portfolio p {
@@ -114,7 +114,7 @@
 		margin: 100px 0;
 	}
 
-	.smallSpace {
+	.mediumSpace {
 		padding-top: 30px;
 	}
 

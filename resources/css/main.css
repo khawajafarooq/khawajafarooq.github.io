@@ -14,7 +14,7 @@ html {
 	--sub-heading-color: #212121;
 	--sub-text-color: #212121;
 
-	--appstore-button-image: url("../images/appstore-white.svg");
+	--appstore-button-image: url(images/appstore-black.png);
 }
 
 @media screen and (prefers-color-scheme: dark) {
@@ -29,7 +29,7 @@ html {
 		--sub-heading-color: #e0e0e0;
 		--sub-text-color: #bdbdbd;
 
-		--appstore-button-image: url("../images/appstore-black.svg");
+		--appstore-button-image: url(images/appstore-white.png);
 	}
 }
 
@@ -54,10 +54,14 @@ div.container {
 	margin-bottom: 20px;
 }
 
-.smallSpace {
+.mediumSpace {
 	padding-top: 30px;
 }
 
+.smallSpace {
+	padding-top: 20px;
+}
+
 .space {
-	padding-top: 100px;
+	padding-top: 80px;
 }

@@ -41,7 +41,7 @@ div>.heading {
 	font-size: 1.4em;
 	font-weight: 500;
 	color: var(--sub-heading-color);
-	margin-top: 50px;
+	margin-top: 20px;
 }
 
 .portfolio p {
@@ -54,8 +54,7 @@ div>.heading {
 .portfolio-image {
     height: 100%;
     min-width: 400px;
-    padding-left: 20px;
-    padding-right: 20px;
+    justify-content: center;
 }
 
 .portfolio-details {
@@ -66,6 +65,11 @@ div>.heading {
     justify-content: center;
     align-items: left;
     text-align: left;
+}
+
+.appstore-link {
+    width: 150px;
+    height: 50px;
 }
 
 .appstore-button {
