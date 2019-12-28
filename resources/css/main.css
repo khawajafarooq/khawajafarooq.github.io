@@ -1,6 +1,8 @@
 html {
 	font-family: 'Roboto bold', sans-serif;
 	scroll-behavior: smooth;
+	overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 :root {
